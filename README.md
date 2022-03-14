@@ -1,9 +1,11 @@
 
 # WATonomous Infrastructure Request Tracker
 
-Welcome to WATonomous infrastructure. In this repo you can create support
+Welcome to WATonomous infrastructure! In this repo you can create support
 tickets for any questions related to the infrastructure. To create a support
-ticket, please open an issue.
+ticket, please open an issue (before you do, please look through the list of
+issues to see if the same question has already been asked; for generic
+questions such as "how do I use SSH proxy jump", Google is your friend 😃).
 
 ## Useful links
 
