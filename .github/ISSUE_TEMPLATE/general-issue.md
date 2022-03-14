@@ -9,7 +9,8 @@ assignees: ryanlarkin, ben-z, KyleRAnderson, stephenwang5, arjun-krishna1
 
 Your issue may already be reported! Please search the list of issues before creating one.
 
-If the issue is generic (e.g. How do I use SSH port forwarding?), please 
+If the issue is generic (e.g. How do I use SSH port forwarding?), please first try to find
+solutions online. This helps us reduce noise and focus on new development!
 
 ## Expected Behavior
 <!--- If you're describing a bug, tell us what should happen -->
