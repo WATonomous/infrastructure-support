@@ -1,4 +1,3 @@
-
 ---
 name: General Issue
 about: Get help for an issue
@@ -43,4 +42,3 @@ If the issue is generic (e.g. How do I use SSH port forwarding?), please
 <!--- Include as many relevant details about the environment you experienced the bug in -->
 * Tool (e.g. Teleport, SSH):
 * Operating System and version:
-
