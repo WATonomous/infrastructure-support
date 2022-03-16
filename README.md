@@ -1,7 +1,7 @@
 
-# WATonomous Infrastructure Request Tracker
+# WATcloud Request Tracker
 
-Welcome to WATonomous infrastructure! In this repo you can create support
+Welcome to WATcloude! In this repo you can create support
 tickets for any questions related to the infrastructure. To create a support
 ticket, please open an issue (before you do, please look through the list of
 issues to see if the same question has already been asked; for generic
@@ -9,9 +9,13 @@ questions such as "how do I use SSH proxy jump", Google is your friend 😃).
 
 ## Useful links
 
+### Important!
+
+- [WATcloud User Manual](./MANUAL.md)
+
 ### General
 
-- [WATonomous server status and access instructions](https://status.watonomous.ca)
+- [WATcloud server status and access instructions](https://status.watonomous.ca)
 
 ### Teleport
 
@@ -23,4 +27,3 @@ questions such as "how do I use SSH proxy jump", Google is your friend 😃).
 ### SSH
 
 - [SSH Agent forwarding](https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding)
-
