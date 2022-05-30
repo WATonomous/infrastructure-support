@@ -27,7 +27,7 @@ Welcome to WATcloud! To get started, here are a few guidelines for using the clu
 
 ### SSH Configuration Files
 
-[Main resource](https://www.ssh.com/academy/ssh/config), this is just a quick reference.
+[Main resource](https://www.ssh.com/academy/ssh/config) (or just search online for "SSH config file").
 
 A sample (and very simple) SSH configuration file for directly accessing a server in this cluster:
 
