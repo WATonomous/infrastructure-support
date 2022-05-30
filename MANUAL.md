@@ -41,6 +41,7 @@ Host workstation  # These names can be whatever you want.
   ProxyJump bastion
   User <your username>
   HostName <some server hostname>.watcluster.local
+  ForwardAgent yes
 ```
 
 Then access the server directly with `ssh workstation`.
