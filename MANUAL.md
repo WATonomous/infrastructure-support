@@ -22,3 +22,26 @@ Welcome to WATcloud! To get started, here are a few guidelines for using the clu
 
 - VMs in the server cluster may go down due to e.g. power outage, university network outage, and runaway processes. To check whether a machine is up, go to https://status.watonomous.ca
 - Maintenance will be scheduled periodically. Notices will be posted in advance in the issues section and @WATonomous/teleport-users-terraform will be notified. Please ensure that you [enable notifications](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications) to receive these notices.
+
+## Tips and Tricks
+
+### SSH Configuration Files
+
+[Main resource](https://www.ssh.com/academy/ssh/config) (or just search online for "SSH config file").
+
+A sample (and very simple) SSH configuration file for directly accessing a server in this cluster:
+
+```ssh
+Host bastion
+  HostName bastion.watonomous.ca
+  User <your username>
+  IdentityFile <path to your WATonomous server private SSH keyfile>
+
+Host workstation  # These names can be whatever you want.
+  ProxyJump bastion
+  User <your username>
+  HostName <some server hostname>.watcluster.local
+  ForwardAgent yes
+```
+
+Then access the server directly with `ssh workstation`.

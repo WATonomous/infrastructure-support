@@ -1,7 +1,7 @@
 
 # WATcloud Request Tracker
 
-Welcome to WATcloude! In this repo you can create support
+Welcome to WATcloud! In this repo you can create support
 tickets for any questions related to the infrastructure. To create a support
 ticket, please open an issue (before you do, please look through the list of
 issues to see if the same question has already been asked; for generic
