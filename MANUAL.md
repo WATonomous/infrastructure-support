@@ -40,7 +40,7 @@ Host bastion
 Host workstation  # These names can be whatever you want.
   ProxyJump bastion
   User <your username>
-  HostName <some server hostname>.watcluster.local
+  HostName <some server hostname>.watocluster.local
   ForwardAgent yes
 ```
 
