@@ -1,7 +1,7 @@
 ---
 name: Resource Allocation Request
 about: Request to have long-running or resource-intensive jobs in the cluster
-title: '[RAC]'
+title: '[RAR]'
 labels: 'resource-allocation-request'
 assignees: ryanlarkin, ben-z, KyleRAnderson, stephenwang5, arjun-krishna1
 
