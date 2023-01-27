@@ -11,7 +11,7 @@ assignees: ryanlarkin, ben-z, KyleRAnderson, stephenwang5, arjun-krishna1
 <!-- Please describe your use case and intended outcomes. -->
 
 ## Stakeholders
-<!-- Please list the stakeholders. Who's the owner of this project? Who will be benefitted from this job? -->
+<!-- Please list the stakeholders. Who's the owner of this project? Who will benefit from this job? -->
 
 ## Resource Requirements
 <!-- Please state the machine(s) that you intend to run your workload on, and how much resources (CPU/GPU/RAM) you will be using.  -->
