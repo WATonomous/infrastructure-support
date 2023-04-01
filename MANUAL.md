@@ -11,7 +11,7 @@ Welcome to WATcloud! To get started, here are a few guidelines for using the clu
 ## Resource-intensive and long-running workloads
 
 - If your workload is resource-intensive or long-running, please request permissions by creating an issue using the “resource allocation request” template. State your use case and resource requirements. We periodically clean up unknown processes in the cluster.
-- Unless exceptions are granted, long-running or resource-intensive workloads must be for student-design team projects only.
+- Unless exceptions are granted, long-running or resource-intensive workloads must be for club projects only.
 
 ## Storage guidelines
 
