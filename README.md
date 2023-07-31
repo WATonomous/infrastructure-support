@@ -17,7 +17,7 @@ questions such as "how do I use SSH proxy jump", Google is your friend 😃).
 
 - [WATcloud server status and access instructions](https://status.watonomous.ca)
 
-### Teleport
+### Teleport (Internal tools only)
 
 - [WATonomous Teleport web UI](https://watonomous.teleport.sh/)
 - [Learning to use the TSH (Teleport) command line tool](https://goteleport.com/docs/server-access/guides/tsh/)
