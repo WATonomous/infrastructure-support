@@ -17,7 +17,7 @@ Welcome to WATcloud! To get started, here are a few guidelines for using the clu
 
 - The home directory is a distributed filesystem (Ceph) and is accessible via any development VM in the cluster. Due to the limited size, it should be used for small files only. Datasets should be placed in `/mnt/wato-drive`
 - `/mnt/wato-drive` is a NAS-HDD backed ZFS storage. It is intended for storing large files. It has a 1TB SSD cache. The machine hosting it has a 40Gbps link to the cluster switch.
-- `/mnt/wato-drive2` is a NAS-HDD backed (hardware) RAID5 storage. It is intended for storing large files. It has a 1TB NVMe cache. The machine hosting it has a 40Gbps link to the cluster switch.
+- `/mnt/wato-drive2` is a NAS-HDD backed (hardware) RAID5 storage. It is intended for storing large files. It has a 1TB NVMe write cache. The machine hosting it has a 40Gbps link to the cluster switch.
 - `/mnt/scratch` is available on select high-spec machines. It is temporary storage backed by local NVMe drives. You can use this if your workload is disk-bound. Please clean up your files after using because we currently don't have automatic file expiration set up.
 
 ## Maintenance and outages
