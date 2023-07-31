@@ -6,7 +6,7 @@ Welcome to WATcloud! To get started, here are a few guidelines for using the clu
 
 - Be [nice](https://man7.org/linux/man-pages/man2/nice.2.html)!
   - If you have a long-running non-interactive process, please [increase its niceness](https://www.tecmint.com/set-linux-process-priority-using-nice-and-renice-commands/) so that interactive programs don't lag.
-  - Please be aware of the disk size constraints. We don't enforce disk quotas. A general rule of thumb is to leave small files in `$HOME` and put large files in `/mnt/wato-drive`.
+  - Please be aware of the disk size constraints. We don't enforce disk quotas. A general rule of thumb is to leave small files in `$HOME` and put large files in `/mnt/wato-drive*`.
 
 ## Resource-intensive and long-running workloads
 
