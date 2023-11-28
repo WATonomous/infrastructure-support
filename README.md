@@ -15,7 +15,13 @@ questions such as "how do I use SSH proxy jump", Google is your friend 😃).
 
 ### General
 
+- [WATcloud website](https://cloud.watonomous.ca)
 - [WATcloud server status and access instructions](https://status.watonomous.ca)
+
+### SSH
+
+- [WATcloud SSH guide](https://cloud.watonomous.ca/docs/compute-cluster/ssh)
+- [SSH Agent forwarding](https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding)
 
 ### Teleport (Internal tools only)
 
@@ -23,7 +29,3 @@ questions such as "how do I use SSH proxy jump", Google is your friend 😃).
 - [Learning to use the TSH (Teleport) command line tool](https://goteleport.com/docs/server-access/guides/tsh/)
 - [Additional instructions for using Teleport](https://hackmd.io/@watonomous/teleport)
 - [Using Visual Studio Code with Teleport](https://goteleport.com/docs/server-access/guides/vscode/)
-
-### SSH
-
-- [SSH Agent forwarding](https://docs.github.com/en/developers/overview/using-ssh-agent-forwarding)
