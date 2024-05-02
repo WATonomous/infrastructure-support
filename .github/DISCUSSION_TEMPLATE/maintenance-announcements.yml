@@ -1,7 +1,8 @@
 title: "WATcloud Maintenance Announcement: "
 labels: [maintenance]
 body:
-  - type: markdown
+  - type: input
+    id: intro
     attributes:
       value: "Hi @ben-z, This is a WATcloud maintenance announcement. Please see below for details."
   - type: input
