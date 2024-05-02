@@ -1,9 +1,9 @@
-title: "Maintenance Announcement: "
+title: "WATcloud Maintenance Announcement: "
 labels: [maintenance]
 body:
   - type: markdown
     attributes:
-      value: "Hi @watonomous/watcloud-compute-cluster-users, This is a maintenance announcement. Please see below for details."
+      value: "Hi @ben-z, This is a WATcloud maintenance announcement. Please see below for details."
   - type: input
     id: machines-affected
     attributes:
