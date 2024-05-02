@@ -1,0 +1,44 @@
+name: Maintenance Announcement
+description: Create a maintenance announcement for compute cluster users
+title: "Maintenance Announcement: "
+labels: [announcement]
+assignees: 
+body:
+  - type: markdown
+    attributes:
+      value: "Hi @watonomous/watcloud-compute-cluster-users, This is a maintenance announcement. Please see below for details."
+  - type: input
+    id: machines-affected
+    attributes:
+      label: Machines Affected
+      description: List the machines that will be affected by this maintenance.
+      placeholder: e.g., tr-ubuntu3, wato2-slurm1
+      required: true
+  - type: input
+    id: duration
+    attributes:
+      label: Duration
+      description: Specify the duration of the maintenance.
+      placeholder: e.g., 6 hours
+      required: true
+  - type: input
+    id: start-time
+    attributes:
+      label: Start Time
+      description: Specify the start time of the maintenance. Use daylight-savings-agnostic timestamps (e.g., use `ET` instead of `EST` or `EDT` for Eastern Time)
+      placeholder: e.g., 2023-07-23 10:00 ET
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: Briefly describe the purpose of the maintenance.
+      placeholder: e.g., To upgrade system memory
+      required: true
+  - type: textarea
+    id: additional-information
+    attributes:
+      label: Additional Information
+      description: Include any additional information or instructions here.
+      placeholder: e.g., SLURM jobs that are scheduled to run on affected nodes but cannot complete before the start of the maintenance will be held in queue until the maintenance is complete.
+      required: false
