@@ -5,7 +5,7 @@ body:
     id: intro
     attributes:
       label: Intro
-      value: "Hi @ben-z, This is a WATcloud maintenance announcement. Please see below for details."
+      value: "Hi @WATonomous/watcloud-compute-cluster-users, This is a WATcloud maintenance announcement. Please see below for details."
   - type: input
     id: machines-affected
     attributes:
@@ -13,17 +13,17 @@ body:
       description: List the machines that will be affected by this maintenance.
       placeholder: e.g., tr-ubuntu3, wato2-slurm1
   - type: input
-    id: duration
-    attributes:
-      label: Duration
-      description: Specify the duration of the maintenance.
-      placeholder: e.g., 6 hours
-  - type: input
     id: start-time
     attributes:
       label: Start Time
       description: Specify the start time of the maintenance. Use daylight-savings-agnostic timestamps (e.g., use `ET` instead of `EST` or `EDT` for Eastern Time)
       placeholder: e.g., 2023-07-23 10:00 ET
+  - type: input
+    id: duration
+    attributes:
+      label: Duration
+      description: Specify the duration of the maintenance.
+      placeholder: e.g., 6 hours
   - type: textarea
     id: purpose
     attributes:
