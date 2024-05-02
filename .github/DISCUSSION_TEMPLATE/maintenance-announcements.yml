@@ -17,7 +17,7 @@ body:
     attributes:
       label: Start Time
       description: Specify the start time of the maintenance. Use daylight-savings-agnostic timestamps (e.g., use `ET` instead of `EST` or `EDT` for Eastern Time)
-      placeholder: e.g., 2023-07-23 10:00 ET
+      placeholder: e.g., 2023-07-23 10:00AM ET
   - type: input
     id: duration
     attributes:
