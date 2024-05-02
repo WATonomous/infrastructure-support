@@ -4,6 +4,7 @@ body:
   - type: input
     id: intro
     attributes:
+      label: Intro
       value: "Hi @ben-z, This is a WATcloud maintenance announcement. Please see below for details."
   - type: input
     id: machines-affected
